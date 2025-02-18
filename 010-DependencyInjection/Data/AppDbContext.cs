@@ -1,7 +1,7 @@
-using _09_ExternalConfiguration.Entities;
+using _010_DependencyInjection.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace _09_ExternalConfiguration.Data;
+namespace _010_DependencyInjection.Data;
 //  A DbContext instance represents a session with the database and can be used to
 //  query and save instances of your entities. DbContext is a combination of the
 //  Unit Of Work and Repository patterns.
