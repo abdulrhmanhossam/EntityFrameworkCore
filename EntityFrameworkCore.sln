@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-DependencyInjection", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-ContextFactory", "11-ContextFactory\11-ContextFactory.csproj", "{093D2155-E93A-4E06-9584-9CDDB2DD6D77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-ContextPooling", "12-ContextPooling\12-ContextPooling.csproj", "{D08924E1-4462-409D-993D-4CAC4AE32A87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,18 @@ Global
 		{093D2155-E93A-4E06-9584-9CDDB2DD6D77}.Release|x64.Build.0 = Release|Any CPU
 		{093D2155-E93A-4E06-9584-9CDDB2DD6D77}.Release|x86.ActiveCfg = Release|Any CPU
 		{093D2155-E93A-4E06-9584-9CDDB2DD6D77}.Release|x86.Build.0 = Release|Any CPU
+		{D08924E1-4462-409D-993D-4CAC4AE32A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08924E1-4462-409D-993D-4CAC4AE32A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08924E1-4462-409D-993D-4CAC4AE32A87}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D08924E1-4462-409D-993D-4CAC4AE32A87}.Debug|x64.Build.0 = Debug|Any CPU
+		{D08924E1-4462-409D-993D-4CAC4AE32A87}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D08924E1-4462-409D-993D-4CAC4AE32A87}.Debug|x86.Build.0 = Debug|Any CPU
+		{D08924E1-4462-409D-993D-4CAC4AE32A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08924E1-4462-409D-993D-4CAC4AE32A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08924E1-4462-409D-993D-4CAC4AE32A87}.Release|x64.ActiveCfg = Release|Any CPU
+		{D08924E1-4462-409D-993D-4CAC4AE32A87}.Release|x64.Build.0 = Release|Any CPU
+		{D08924E1-4462-409D-993D-4CAC4AE32A87}.Release|x86.ActiveCfg = Release|Any CPU
+		{D08924E1-4462-409D-993D-4CAC4AE32A87}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
