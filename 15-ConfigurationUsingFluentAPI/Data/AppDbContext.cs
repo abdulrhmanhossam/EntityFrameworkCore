@@ -1,6 +1,7 @@
 using _15_ConfigurationUsingFluentAPI.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using System.Reflection;
 
 namespace _15_ConfigurationUsingFluentAPI.Data;
 //  A DbContext instance represents a session with the database and can be used to
@@ -31,17 +32,22 @@ public class AppDbContext : DbContext
     //     instances of your derived context.
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<User>()
-            .ToTable("tblUsers");
+        #region Inside OnModel
+        //modelBuilder.Entity<User>()
+        //    .ToTable("tblUsers");
 
-        modelBuilder.Entity<Tweet>()
-            .ToTable("tblTweets");
+        //modelBuilder.Entity<Tweet>()
+        //    .ToTable("tblTweets");
 
-        modelBuilder.Entity<Comment>()
-            .ToTable("tblComments");
+        //modelBuilder.Entity<Comment>()
+        //    .ToTable("tblComments");
 
-        modelBuilder.Entity<Comment>()
-            .Property(p => p.Id)
-            .HasColumnName("CommentId");
+        //modelBuilder.Entity<Comment>()
+        //    .Property(p => p.Id)
+        //    .HasColumnName("CommentId"); 
+        #endregion
+
+        modelBuilder.ApplyConfigurationsFromAssembly(Assembly
+            .GetExecutingAssembly());
     }
 }
