@@ -26,10 +26,10 @@ IServiceProvider serviceProvider = services.BuildServiceProvider();
 // loose coupling
 using (var dbContext = serviceProvider.GetService<AppDbContext>())
 {
-    foreach (var wallet in dbContext!.Wallets)
-    {
-        Console.WriteLine(wallet);
-    }
+    //foreach (var wallet in dbContext!.Wallets)
+    //{
+    //    Console.WriteLine(wallet);
+    //}
 }
 
 

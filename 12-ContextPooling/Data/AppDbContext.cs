@@ -1,4 +1,4 @@
-using _12_ContextPooling.Entities;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace _12_ContextPooling.Data;
@@ -8,7 +8,7 @@ namespace _12_ContextPooling.Data;
 public class AppDbContext : DbContext
 {
     // represent the collection of all entities
-    public DbSet<Wallet> Wallets { get; set; }
+    //public DbSet<Wallet> Wallets { get; set; }
 
 
     public AppDbContext(DbContextOptions options)
